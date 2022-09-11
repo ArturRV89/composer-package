@@ -14,7 +14,7 @@
 ## Проверка мажорных версий пакетов
 `docker-compose run --rm php-cli composer outdated --direct`
 
-## Команды
+## Команды (настройка команд находится в Makefile)
 - `make phpunit` - phpunit - запуск тестов
 - `make phpcs` - php code sniffer check - проверка кода на соответствие стандартам
 - `make phpcbf` - php code sniffer fix - исправление кода на соответствие стандартам
